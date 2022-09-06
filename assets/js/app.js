@@ -10,6 +10,10 @@ function calcMath(){
 
 	if(number>0 && number<=10275) {
 
+		number = ((number - 0) * 10)/100;
+
+		tax.splice(0, 1, number);
+
 		for(let i = 0; ; i++){
 
 			sum = tax[i];
