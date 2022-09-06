@@ -3,7 +3,7 @@
 function calcMath(){
 
     let number = +numberInput.value;
-    let tax = [1027.5, 3780, 10406, 19434,14668, 113382.5];
+    let tax = [1027.5, 3780, 10406, 19434, 14668, 113382.5];
 	let sum = 0;
 
     number = number - 12950;
