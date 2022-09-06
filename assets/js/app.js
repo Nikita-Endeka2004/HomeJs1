@@ -13,7 +13,7 @@ function calcMath(){
 		}
 		else if(number>10275 && number<=41775) {
 			val = eval(number-10275);
-			tax = eval((10275/10) + ((val*12)/100));
+			tax = eval(1027.5 + ((val*12)/100));
 		}
 		else if(number>41775 && number<=89075) {
 			val = eval(number-41775);
@@ -21,7 +21,7 @@ function calcMath(){
 		}
 		else if(number>89075 && number<=170050) {
 			val = eval(number-89075);
-			tax = eval((99605/10) + ((val*24)/100));
+			tax = eval(9960.5 + ((val*24)/100));
 		}
 		else if(number>170050 && number<=215950) {
 			val = eval(number-170050);
@@ -30,7 +30,7 @@ function calcMath(){
 		else if(number>215950 && number <= 539900)
 		{
 			val = eval(number-215950);
-			tax = eval((1133825/10) + ((val*35)/100));
+			tax = eval(113382.5 + ((val*35)/100));
 		}
 
         else if(number>539900)
